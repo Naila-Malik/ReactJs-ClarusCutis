@@ -7,7 +7,6 @@ import Login from "./Pages/Login";
 function App() {
   return (
     <Routes>
-      <Route index element={<Home />} />
       <Route path="/" element={<Home />} />
       <Route path="/register" element={<Register />} />
       <Route path="/login" element={<Login />} />
